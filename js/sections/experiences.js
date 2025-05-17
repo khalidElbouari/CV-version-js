@@ -24,14 +24,14 @@ export function createExperiencesSection(experiences) {
 
     const dateDiv = document.createElement("div");
     dateDiv.classList.add("date");
-    dateDiv.innerHTML = `📅 ${exp.date} <span class="duration">Durée : ${exp.duration}</span>`;
+    dateDiv.innerHTML = `📅<span class="duration">Durée : ${exp.duration}</span>`;
 
     metaDiv.appendChild(dateDiv);
 
     // Rôle
     const roleDiv = document.createElement("div");
     roleDiv.classList.add("role");
-    roleDiv.innerHTML = `<strong>Rôle :</strong> ${exp.role}`;
+    roleDiv.innerHTML = `<strong>Rôle :</strong> ${exp.title}`;
 
     // Description
     const descDiv = document.createElement("div");

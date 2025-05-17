@@ -1,4 +1,4 @@
-import { cv } from './cv.js';
+import { cv } from './model/cv.js';
 import { createProfileSection } from './sections/profile.js';
 import { createEducationSection } from './sections/education.js';
 import { createTechnologySkillsSection } from './sections/technologySkills.js';
