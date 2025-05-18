@@ -11,13 +11,7 @@ export const cv = {
         phone: "+212 624 44 78 61",
         email: "khalid.fati7i.hb@gmail.com",
         address: "65 Rue Sebta, Hay Kifah, Salé",
-        professionalSummary: `Ingénieur en informatique avec une bonne expérience 
-            sur les architectures logicielles et les nouvelles technologies informatique, 
-            en l'occurence Jakarta EE, Spring Boot, React et Angular. 
-            Expérimenté dans la gestion de projets agiles, planification, exécution et coordination des tâches 
-            avec des équipes multifonctionnelles. Disposant des compétences requises en communication et 
-            en résolution de problèmes avec un esprit ouvert en collaboration efficace avec les parties prenantes 
-            et les membres de l'équipe.
+        professionalSummary: `Étudiant en MQL
         `,
         links: ["", "", ""]
     },

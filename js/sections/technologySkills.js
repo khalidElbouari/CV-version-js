@@ -32,5 +32,15 @@ export function createTechnologySkillsSection(technologySkills) {
   section.appendChild(title);
   section.appendChild(competenceDiv);
 
-  return section;
+    // Créer le séparateur après la section
+  const separateur = document.createElement("div");
+  separateur.classList.add("separateur");
+
+  // Conteneur global
+  const container = document.createElement("div");
+  container.appendChild(section);
+  container.appendChild(separateur);
+
+
+  return container;
 }

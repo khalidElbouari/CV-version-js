@@ -1,7 +1,4 @@
 export function createProfileSection(profile) {
-  // Créer le conteneur principal
-  const container = document.createElement("div");
-  container.classList.add("container");
 
   // Créer l'en-tête du profil
   const header = document.createElement("header");
@@ -27,7 +24,7 @@ export function createProfileSection(profile) {
 
   const statusDiv = document.createElement("div");
   statusDiv.classList.add("status");
-  statusDiv.textContent = profile.jobTitle || "Titre non défini";
+  statusDiv.textContent = profile.professionalSummary || "Titre non défini";
 
   nameStatus.appendChild(nameDiv);
   nameStatus.appendChild(statusDiv);
@@ -88,8 +85,7 @@ export function createProfileSection(profile) {
   header.appendChild(profileImage);
   header.appendChild(profileInfo);
 
-  // Ajout du header au container
-  container.appendChild(header);
 
-  return container;
+
+  return header;
 }
